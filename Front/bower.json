@@ -1,0 +1,14 @@
+{
+  "name": "JWTAuthencationExample",
+  "description": "JWT Authentication Example",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "angular": "1.5.3",
+    "angular-mocks": "1.5.3",
+    "angular-route": "1.5.3",
+    "angular-animate": "1.5.3",
+    "angular-material": "1.1.0-rc1",
+    "angular-sanitize": "1.5.8"
+  }
+}

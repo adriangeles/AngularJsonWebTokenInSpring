@@ -1,0 +1,27 @@
+<md-content  md-whiteframe="4" layout="column">
+
+    <md-toolbar>
+        <h3 class="md-flex">Login</h3>
+    </md-toolbar>
+
+    <md-content layout-padding>
+
+        <md-input-container class="md-block" flex-gt-xs ng-hide="authenticated">
+            <label>Username</label>
+            <input ng-model="username">
+        </md-input-container>
+
+        <md-input-container class="md-block" flex-gt-xs ng-hide="authenticated">
+            <label>Password</label>
+            <input ng-model="password">
+        </md-input-container>
+
+
+        <div layout="row">
+            <md-button class="md-raised md-primary" ng-click="getToken()" ng-hide="authenticated">Login</md-button>
+             <div flex="grow"> </div>
+            <md-button class="md-raised" ng-click="logout()" ng-show="authenticated">Logout</md-button>
+        </div>
+    </md-content>
+
+</md-content >

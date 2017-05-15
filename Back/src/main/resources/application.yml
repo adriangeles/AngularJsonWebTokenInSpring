@@ -1,0 +1,6 @@
+auth:  
+  path: auth
+  header: Authorization  
+  jwt: 
+    secret: mySecret
+    expiration: 604800
